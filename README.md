@@ -15,6 +15,7 @@ Il requiert ffmpeg (pour la musique) et tout le requirements.txt.
 
 Il a une commande HELP mais voici un résumé de ce qu'il sait faire :
 
+Partie musique :
 - connect [id du channel] = Se connecte au salon vocal.
 - play <musique> = Recherche une chanson sur Youtube et l'ajoute à la file d'attente.
 - pause = Mets en pause de la chanson en cours de lecture.
@@ -25,11 +26,13 @@ Il a une commande HELP mais voici un résumé de ce qu'il sait faire :
 - volume <valeur>", value=f"Modifiez le volume de <@{ravaBot.id}> (entre 1 et 100).
 - disconnect = Arrête la chanson en cours de lecture et quitte le salon vocal.
 - lyrics [song] = Affiche les paroles d'une chanson.
+Partie XP :
 - xp leaderboard = Affiche le top 5 du serveur.
 - xp info = Affiche les infos relatives à l'xp.
 - xp clear = Supprime l'XP d'un utilisateur.
 - xp backup = Envoie une backup en .json des levels des utilisateurs.
 - xp give = Permet d'ajouter (ou de retirer si valeur négative) de l'xp à un utilisateur.
+Partie divers :
 - help [page=1/music/xp] = Affiche le menu d'aide des commandes.
 - avatar [user] = Affiche ton avatar ou celui que tu mentionnes.
 - kiss = Fait un bisou à un inconnu.
