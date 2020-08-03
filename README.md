@@ -64,7 +64,7 @@ Il a une commande HELP mais voici un résumé de ce qu'il sait faire :
 - syntax = Informations pour bien éditer son texte.
 - sexe [butts/boobs] = Envois une image coquine. **(NSFW)**
 - love <user1> [user2] = Découvre la probabilité que ces deux personnes se mettent en couple.
-- delete", value='Envois une vidéo "Repost", alternative : `.repost`.', inline=False)
+- delete", value='Envois une vidéo "Repost", alternative : `.repost`.
 - nulle = Informe que le contenu précédent est nul (sous forme de vidéo).
 - tagueule = Vidéo 'TG'.
 - filsdepute = Vidéo 'FDP'.
