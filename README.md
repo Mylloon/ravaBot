@@ -76,6 +76,7 @@ Partie divers :
 - runtime = Affiche le temps depuis que le bot est en ligne.
 - xd = Renvois un XD.
 
+
 # Pour mettre à jour
 
-Dans le dossier UPDATE RAVABOT se trouve ce que j'utilisais pour update le bot sur Docker
+Dans le [UPDATE RAVABOT](UPDATE RAVABOT) se trouve ce que j'utilisais pour update le bot sur Docker
