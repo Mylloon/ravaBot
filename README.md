@@ -1,5 +1,5 @@
 # ravaBot
-Bot discord de l'ancienne team des ravaG.
+Bot discord de l'ancienne team des ravaG codé en python.
 
 
 # Infos
