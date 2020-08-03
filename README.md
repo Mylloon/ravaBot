@@ -56,7 +56,7 @@ Partie divers :
 - crp = Active ou désactive le rich presence dynamique.
 - rainbow = Ton pseudo change de toute les couleurs.
 - rire = Ahahaha.
-- memes", value=f"Envois un meme de reddit.
+- memes = Envois un meme de reddit.
 - nickrandom = Change le surnom d'un utilisateur du salon courant.
 - screenshare [id du channel] = Renvois le lien pour faire un partage d'écran.
 - baccalaureat = Affiche la probabilité que t'es ton bac.
