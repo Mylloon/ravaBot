@@ -75,3 +75,7 @@ Partie divers :
 - citation <msgID/msgLink> [réponse] = Permet de citer un message et d'y répondre directement ou non.
 - runtime = Affiche le temps depuis que le bot est en ligne.
 - xd = Renvois un XD.
+
+# Pour mettre à jour
+
+Dans le dossier UPDATE RAVABOT se trouve ce que j'utilisais pour update le bot sur Docker
