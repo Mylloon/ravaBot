@@ -23,7 +23,7 @@ Partie musique :
 - skip = Passe la chanson.
 - queue = Affiche la file d'attente des chansons à venir.
 - now_playing = Affiche des informations sur la chanson en cours de lecture.
-- volume <valeur>", value=f"Modifiez le volume de <@{ravaBot.id}> (entre 1 et 100).
+- volume <valeur> = "Modifiez le volume de <@{ravaBot.id}> (entre 1 et 100).
 - disconnect = Arrête la chanson en cours de lecture et quitte le salon vocal.
 - lyrics [song] = Affiche les paroles d'une chanson.
 Partie XP :
@@ -42,7 +42,7 @@ Partie divers :
 - ping = Pong!
 - iq = Calcule ton IQ.
 - chatclear = Clear le canal de discussion.
-- eteindre", value=f"Éteint <@{ravaBot.id}>.
+- eteindre = Éteint <@{ravaBot.id}>.
 - 8ball <question> = Répond a ta question.
 - trueid <id> = Renvois à l'utilisateur correspondant.
 - calc <calcul> = Calcule une expression.
@@ -67,7 +67,7 @@ Partie divers :
 - syntax = Informations pour bien éditer son texte.
 - sexe [butts/boobs] = Envois une image coquine. **(NSFW)**
 - love <user1> [user2] = Découvre la probabilité que ces deux personnes se mettent en couple.
-- delete", value='Envois une vidéo "Repost", alternative : `.repost`.
+- delete = Envois une vidéo "Repost", alternative : `.repost`.
 - nulle = Informe que le contenu précédent est nul (sous forme de vidéo).
 - tagueule = Vidéo 'TG'.
 - filsdepute = Vidéo 'FDP'.
