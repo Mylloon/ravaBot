@@ -1,0 +1,42 @@
+LANCER UN NOUVEAU CONTAINER POSTGRESDL :
+
+docker run -p PORT:PORT -d \
+    -e POSTGRES_PASSWORD=MOT_DE_PASSE \
+    -e POSTGRES_USER=USER \
+    -e POSTGRES_DB=NOM_DE_LA_BASE \
+    -v pgdata:/var/lib/postgresql/data \
+    postgres
+
+docker run -p 5432:5432 \
+    --name NOM_DU_CONTAINER \
+    -e POSTGRES_PASSWORD=MOT_DE_PASSE -d \
+    -v /var/lib/postgresql/data \
+    postgres
+
+SE CONNECTER A LA BASE DE DONNEE SQL : ("\q" pour quitter) DEPUIS DOCKER
+
+psql ravabot -h localhost -U admin
+
+DEPUIS OMV
+
+docker exec -it NOM/ID_DU_CONTAINER psql -U admin ravabot
+
+EDITER FICHIER CONF SQL :
+
+nano /var/lib/docker/volumes/pgdata/_data/postgresql.conf
+
+(1) METTRE LA BACKUP SUR LE SERV :
+
+nano /var/lib/docker/volumes/pgdata/_data/backup.csv
+
+(2) METTRE LA BACKUP SUR LA TABLE :
+
+COPY users(id_user,dernier_message_xp_pics,experience) FROM 'backup.csv' DELIMITER ',' CSV HEADER;
+
+VIDER TABLE USER:
+
+DELETE FROM users RETURNING *;
+
+VOIR TABLE USER:
+
+SELECT * FROM users;

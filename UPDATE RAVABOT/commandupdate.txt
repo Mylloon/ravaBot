@@ -1,0 +1,7 @@
+cd CHEMIN VERS LE BOT SUR LE SERV
+docker build --tag ravabot:latest .
+docker stop ravaBot
+docker rm ravaBot
+docker image prune --filter "label!=tag=python" --force
+docker run --detach --restart unless-stopped --name ravaBot ravabot
+docker exec -d ravaBot pip install --upgrade pip
