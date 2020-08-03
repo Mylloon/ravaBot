@@ -79,4 +79,4 @@ Partie divers :
 
 # Pour mettre à jour
 
-Dans le [UPDATE RAVABOT](UPDATE RAVABOT) se trouve ce que j'utilisais pour update le bot sur Docker
+Dans le [UPDATE RAVABOT](https://github.com/Mylloon/ravaBot/tree/master/UPDATE%20RAVABOT) se trouve ce que j'utilisais pour update le bot sur Docker
