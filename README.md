@@ -40,7 +40,7 @@ Partie divers :
 - kiss = Fait un bisou à un inconnu.
 - deglingue = Tu déglingues un inconnu (ou pas).
 - suggestion <message de suggestion> = Pour proposé une fonctionnalité.
-- ppc <pierre/papier/ciseaux>", value=f"Un simple Chifumi contre <@{ravaBot.id}>.
+- ppc <pierre/papier/ciseaux> = Un simple Chifumi contre <@{ravaBot.id}>.
 - ping = Pong!
 - iq = Calcule ton IQ.
 - chatclear = Clear le canal de discussion.
