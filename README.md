@@ -23,15 +23,17 @@ Partie musique :
 - skip = Passe la chanson.
 - queue = Affiche la file d'attente des chansons à venir.
 - now_playing = Affiche des informations sur la chanson en cours de lecture.
-- volume <valeur> = "Modifiez le volume de <@{ravaBot.id}> (entre 1 et 100).
+- volume <valeur> = Modifiez le volume de <@{ravaBot.id}> (entre 1 et 100).
 - disconnect = Arrête la chanson en cours de lecture et quitte le salon vocal.
 - lyrics [song] = Affiche les paroles d'une chanson.
+
 Partie XP :
 - xp leaderboard = Affiche le top 5 du serveur.
 - xp info = Affiche les infos relatives à l'xp.
 - xp clear = Supprime l'XP d'un utilisateur.
 - xp backup = Envoie une backup en .json des levels des utilisateurs.
 - xp give = Permet d'ajouter (ou de retirer si valeur négative) de l'xp à un utilisateur.
+
 Partie divers :
 - help [page=1/music/xp] = Affiche le menu d'aide des commandes.
 - avatar [user] = Affiche ton avatar ou celui que tu mentionnes.
